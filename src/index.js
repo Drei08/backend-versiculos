@@ -25,4 +25,6 @@ app.get('/versiculos', (req, res) => {
   return res.status(200).json(versiculos[all]);
 });
 
-app.listen(3000);
+app.listen(3333);
+
+export default app;
