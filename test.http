@@ -1,0 +1,53 @@
+
+###
+GET http://localhost:3333/versiculos
+
+###
+GET http://localhost:3333/user/fetch
+
+
+###
+POST  http://localhost:3333/user
+Content-Type: application/json
+
+{
+  "email": "lucas@gmail.com",
+  "password": "8154"
+}
+
+###
+POST  http://localhost:3333/user/create
+Content-Type: application/json
+
+{
+  "email": "alves@gmail.com",
+  "password": "asssas"
+}
+
+
+###
+POST  http://localhost:3333/user/auth
+Content-Type: application/json
+
+{
+  "email": "lucas@gmail.com",
+  "password": "8154"
+}
+
+###
+POST https://backend-versiculos.vercel.app/user/auth
+Content-Type: application/json
+
+{
+  "email": "lucas@gmail.com",
+  "password": "8154"
+}
+
+###
+POST  https://backend-versiculos.vercel.app/user/create
+Content-Type: application/json
+
+{
+  "email": "rheiv@gmail.com",
+  "password": "9167"
+}
