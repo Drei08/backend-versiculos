@@ -10,8 +10,12 @@ const app = express();
 connectToMongo();
 
 app.use(cors({
+  
+ origin: '*',
+
   exposedHeaders: ['x-total-count'],
 })
+
 );
 
 app.use(express.json());

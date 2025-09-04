@@ -39,8 +39,8 @@ POST https://backend-versiculos.vercel.app/user/auth
 Content-Type: application/json
 
 {
-  "email": "lucas@gmail.com",
-  "password": "8154"
+  "email": "rheiv@gmail.com",
+  "password": "9167"
 }
 
 ###
