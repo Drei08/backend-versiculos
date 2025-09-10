@@ -1,11 +1,13 @@
 import express, { response } from "express";
 import cors from "cors";
-import { piadas } from "./mock.js";
+import { versiculos } from "./mock.js";
+
 
 const app = express();
 
 app.use(
   cors({
+    origin: 'http://localhost:5173',
     exposedHeaders: ["X-Total-Count"],
   })
 );
@@ -21,9 +23,11 @@ app.get("/", (req, res) =>{
   res.status(200).send("deu certo")
 })
 
-app.get("/piadas", (req,res) => {
-  const mock = getRandomInt(piadas.length);
-  return res.status(200).send({piada: piadas[mock]});
+app.get("/versiculos", (req,res) => {
+  const mock = getRandomInt(versiculos.length);
+  return res.status(200).send({versiculos: versiculos[mock]});
 })
 
 app.listen(3333);
+
+export default app;
