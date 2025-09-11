@@ -1,0 +1,21 @@
+###
+GET http://localhost:3333/versiculos
+
+
+###
+POST http://localhost:3333/user
+content-type: application/json
+
+{
+  "email": "andrei@gmail.com",
+  "password": "9167"
+}
+
+###
+POST http://localhost:3333/user/auth
+content-type: application/json
+
+{
+  "email": "andrei@gmail.com",
+  "password": "9167"
+}
