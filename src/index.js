@@ -3,6 +3,7 @@ import cors from "cors";
 import { versiculos } from "./mock.js";
 import { connectToMongo } from "./database/index.js";
 import User from "./database/schema/User.js";
+import { userRouter } from "./router.js";
 
 
 const app = express();
@@ -28,28 +29,8 @@ app.get("/versiculos", async (request,response) => {
   return response.status(200).send({versiculos: versiculos[mock]});
 })
 
-app.post("/user", async (request, response) => {
-  console.log(request.body);
-  try {
-    const user = await User.create(req.body);
-    return response.status(200).send({ working: true, user: user });
-  } catch (err) {
-    return response.status(500).send({ error: err.message });
-  }
-});
 
-app.post("/user/auth", async (request, response) => {
-    const user = await User.findOne({
-      email: request.body.email,
-      password: request.body.password,
-    });
-
-    if(user == null){
-      return response.status(400).send({ error: true, menssage: "Dados inválidos" });
-    }
-    else
-    return response.status(200).send({ working: true, user: user });
-});
+app.use("/user", userRouter);
 
 app.listen(3333);
 

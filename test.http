@@ -12,10 +12,29 @@ content-type: application/json
 }
 
 ###
+POST http://localhost:3333/user/create
+content-type: application/json
+
+{
+  "email": "jarth@gmail.com",
+  "password": "123"
+}
+
+
+###
 POST http://localhost:3333/user/auth
 content-type: application/json
 
 {
   "email": "andrei@gmail.com",
   "password": "9167"
+}
+
+###
+POST https://backend-versiculos.vercel.app/user/auth
+content-type: application/json
+
+{
+  "email": "andrei@gmail.com",
+  "password": "91aa67"
 }
