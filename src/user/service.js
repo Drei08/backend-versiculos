@@ -2,11 +2,7 @@ import User from "../database/schema/User.js";
 
 
 const fetchService = async (request, response) => {
-  const user = await User.create({
-    email: "teste@gmail.com",
-    password: "123",
-  });
-  
+  const user = await User.find();
   return user;
 };
 

@@ -1,6 +1,5 @@
 ###
-GET http://localhost:3333/versiculos
-
+GET http://localhost:3333/user/fetch
 
 ###
 POST http://localhost:3333/user
@@ -20,7 +19,6 @@ content-type: application/json
   "password": "123"
 }
 
-
 ###
 POST http://localhost:3333/user/auth
 content-type: application/json
@@ -31,10 +29,22 @@ content-type: application/json
 }
 
 ###
+GET https://backend-versiculos.vercel.app/user/fetch
+
+###
 POST https://backend-versiculos.vercel.app/user/auth
 content-type: application/json
 
 {
-  "email": "andrei@gmail.com",
-  "password": "91aa67"
+  "email": "lucasandrei@gmail.com",
+  "password": "1111"
+}
+
+###
+POST https://backend-versiculos.vercel.app/user/create
+content-type: application/json
+
+{
+  "email": "felipe@gmail.com",
+  "password": "2222"
 }

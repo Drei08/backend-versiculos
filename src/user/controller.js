@@ -1,4 +1,5 @@
 import { fetchService, createService, authService  } from "./service.js";
+import { connectToMongo } from "../database/index.js";
 
 const userFetchController = async (request, response) => {
 
@@ -14,7 +15,6 @@ const userCreateController = async (request, response) => {
   return response.status(200).send({ working: true, user: user });
    
 };
-
 
 const userAthController = async (request, response) => {
    const serviceResponse = await authService (request.body);
