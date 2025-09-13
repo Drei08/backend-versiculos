@@ -16,7 +16,7 @@ const userCreateController = async (request, response) => {
    
 };
 
-const userAthController = async (request, response) => {
+const userAuthController = async (request, response) => {
    const serviceResponse = await authService (request.body);
 
     if(serviceResponse?.error){
@@ -25,4 +25,4 @@ const userAthController = async (request, response) => {
     return response.status(200).send({ working: true, user: serviceResponse });
 }
 
-export { userFetchController, userCreateController, userAthController}
+export { userFetchController, userCreateController, userAuthController}
