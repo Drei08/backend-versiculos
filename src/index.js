@@ -12,7 +12,7 @@ connectToMongo();
 
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: "*",
     exposedHeaders: ["X-Total-Count"],
   })
 );
