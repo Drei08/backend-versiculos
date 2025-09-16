@@ -22,7 +22,7 @@ const userAuthController = async (request, response) => {
     if(serviceResponse?.error){
       return response.status(serviceResponse.statusCode).send({ error: true, menssage: serviceResponse.message });
     }
-    return response.status(200).send({ working: true, user: serviceResponse });
+    return response.status(200).send(serviceResponse);
 }
 
 export { userFetchController, userCreateController, userAuthController}

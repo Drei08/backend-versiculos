@@ -3,23 +3,15 @@
 export const versiculos = [
 
   {
-    texto: "(Efésios 2:10) Se Deus plantou em você um sonho, é porque Ele já te viu vivendo a promessa."
+    texto: "(Efésios 2:10) Se Deus plantou em você um sonho. É porque ele já te viu vivendo a promessa."
   },
 
   {
-    texto: "(Isaías 41:10) Não temas, pois Eu sou contigo. Ainda que tudo pareça difícil, Eu sou tua força."
+    texto: "(Isaías 41:10) Não temas, pois Eu estou contigo. Ainda que tudo pareça difícil, Eu sou tua força."
   },
 
   {
-    texto: "(Salmos 46:1) Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia."
-  },
-
-  {
-    texto: "(Filipenses 4:13) Tudo posso naquele que me fortalece. Nenhuma batalha é maior que o Deus que te sustenta."
-  },
-
-  {
-    texto: "(Jeremias 29:11) Porque Eu bem sei os planos que tenho para você. E são planos de paz e não de mal."
+    texto: "(Jeremias 29:11) Porque eu bem sei os planos que tenho para você. E são planos de paz e não de mal."
   },
 
   {
@@ -27,15 +19,7 @@ export const versiculos = [
   },
 
   {
-    texto: "(Hebreus 11:1) A fé é a certeza do que se espera, a convicção de fatos que não se veem. Continue crendo."
-  },
-
-  {
-    texto: "(2 Coríntios 5:7) Porque vivemos por fé, e não pelo que vemos. Deus está trabalhando, mesmo em silêncio."
-  },
-
-  {
-    texto: "(Salmos 37:5) Entrega o teu caminho ao Senhor; confia nele, e o mais Ele fará. Não se preocupe, apenas creia."
+    texto: "(Salmos 37:5) Entrega o teu caminho ao Senhor; CONFIE nele e o mais Ele fará. Não se preocupe, apenas CREIA."
   },
 
   {
@@ -51,13 +35,9 @@ export const versiculos = [
   },
 
   {
-    texto: "(Genesis 28:15) Eu estarei contifo e não te abandonarei até cumprir o que te prometi. E cuidarei de ti onde quer qu vás."
+    texto: "(Genesis 28:15) Eu estarei contigo e não te abandonarei até cumprir o que te prometi. E cuidarei de ti onde quer qu vás."
   },
   
-  {
-    texto: "(Provérbios 19:21) Ainda que os planos mudem, Deus continua sendo bom."
-  },
-
   {
     texto: "(Isaías 41:10) Olhe para frente. Um guerreiro só baixa a cabeça para orar. E depois se levanta para vencer."
   },
@@ -71,7 +51,7 @@ export const versiculos = [
   },
   
   {
-    texto: "(Provérbios 13:3) Nunca conte às pessoas, mais do que elas precisam saber. Pois baú aberto, não protege tesouro!"
+    texto: "(Provérbios 13:3) Nunca conte às pessoas, mais do que elas precisam saber. Baú aberto, não protege tesouro!"
   },
 
   
@@ -81,6 +61,42 @@ export const versiculos = [
   
   {
     texto: "(Jeremeias 1:10) Deus às vezes precisa descontruir algumas coisas na nossa vida para construir algo muito maior e melhor."
+  },
+
+  {
+    texto: "(Mateus 9:19) Por causa da sua fé, VAI ACONTECER."
+  },
+
+  {
+    texto: "(Provérbios 13:4) Aquele que NÃO tem coragem de arriscar, NÃO consiguirá NADA na vida ."
+  },
+
+  {
+    texto: "(Lucas 1:37) Se DEUS  quiser, vc pisa onde NINGUÉM pisou."
+  },
+
+  {
+    texto: "(Romanos 18:21) Você vai vencer, mas antes DEUS vai te ensinar a ser FORTE."
+  },
+
+  {
+    texto: "(Mateus 7:8) Não comemore em festas ou bebedeiras, aquilo que você pediu de joelhos a DEUS para conquistar."
+  },
+
+  {
+    texto: "(João 14:27) O que vem de DEUS, traz PAZ."
+  },
+
+  {
+    texto: "(Jeremias 31:13) Assim diz o SENHOR: Transformarei a sua tristeza em ALEGRIA."
+  },
+
+  {
+    texto: "(Josué 24:15) FILHA: tu não sabe quantas vezes o inimigo já tentou te destruir e destruir sua casa. MAS tu és MINHA e o que é MEU ele NÃO toca!."
+  },
+
+  {
+    texto: "(Salmo 46:10) Aquieta o teu coração E verás que DEUS é DEUS."
   },
 ];
 
